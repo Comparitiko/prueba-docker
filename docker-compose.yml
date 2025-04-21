@@ -9,7 +9,7 @@ services:
       - portainer_data:/data
     restart: always
   node-red:
-    image: nodered/node-red:latest
+    image: nodered/node-red:3.1-debian
     environment:
       - TZ=Europe/Madrid
     ports:
